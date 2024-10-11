@@ -1,0 +1,67 @@
+DROP TABLE IF EXISTS wwvwineries_schema.Winery;
+
+CREATE TABLE Winery (
+Region_ID TINYINT UNSIGNED,
+Winery_ID TINYINT UNSIGNED,
+Address VARCHAR(200),
+Name VARCHAR(100),
+Email VARCHAR(50),
+Phone_Number VARCHAR(15),
+PRIMARY KEY (Winery_ID)
+);
+
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("1", "1", "Five Star Cellars", "info@fivestarcellars.com", "(509) 527-8400", "840 C St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("1", "2", "Corvus Cellars", "info@corvuscellars.com", "(509) 241-0318", "770 C St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("1", "3", "Cavu Cellars", "joel@cavucellars.com", "(509) 529-4690", "175 E Aeronca, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("1", "4", "Dunham Cellars", "wine@dunhamcellars.com", "(509) 529-4685", "150 E Boeing Ave, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("1", "5", "Elegante Cellars", "info@elegantecellars.com", "(509) 525-9129", "839 C Street, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("1", "6", "Smak Wines", "info@smakwines.com", "(509) 629-9643", "594 Piper Ave, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("1", "7", "Tempus Cellars", "joe@tempuscellars.com", "(509) 270-0298", "760 C St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("1", "8", "Dowset Family Wines", "info@dowsettwines.com", "(509) 520-8215 ", "315 E Cessna Ave, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("1", "9", "Adamant Cellars", "devin@admantcellars.com", "(509) 529-4161", "525 E Cessna Ave, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("1", "10", "Ita Wines", "info@itaWinery.com", "(509) 593-9055 ", "600 Piper Ave. Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("1", "11", "Tamarack Cellars", "info@tamarackcellars.com", "(509) 526-3533 ", "700 C St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("1", "12", "Syzygy Winery", "info@syzygywines.com", "(509) 522-0484", "405 E Boeing Ave, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("1", "13", "The Ink - Drink State Washington & Eternal Wines", "info@eternalwine.com", "(509) 240-6258", "602 Piper Ave, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("1", "14", "Prospice Wines", "info@prospice.wine", "(509) 204-3184", "145 E Curtis Ave., Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "15", "Morell Family Wines & Studio TwoZeroTwo", "wine@morell-pena.com", "(509) 240-3090", "1489 W. Rose St. Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "16", "Echolands Winery", "visit@echolandswine.com", "(509) 676- 2109", "7 W Alder St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "17", "Lodmell Cellars", "info@lodmellcellars.com", "(509) 525-1285", "6 West Rose Street, Suite 104, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "18", "Truthteller Winery", "info@truthtellerWinery.com", "(425) 985-3568", "47 E Main St., Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "19", "Kontos Cellars", "info@kontoscellars.com", "(509) 204-2141", "10 N 2nd Ave, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "20", "Bergevin Lane Vineyards", "tasting.room@bergevinlane.com", "(509) 876-2959", "70 N. Colville, Ste. 106, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "21", "Mark Ryan Winery", "orders@markryanWinery.com", "(509) 876-4577", "26 E Main St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "22", "Browne Family Vineyards", "ww-tastingroom@brownefamilyvineyards.com", "(509) 522-1261", "31 E Main St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "23", "Gramercy Cellars", "info@gramercycellars.com", "(509) 876-2427", "635 N 13th Ave, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "24", "Time & Direction", "info@timeanddirectionwines.com", "(509) 524-8200", "4 N Spokane St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "25", "Henry Earl Estates & Russell Creek", "horte@henryearl.com", "(509) 876-2459", "25 E Main St Walla Walla, WA 99362 ");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "26", "Seven Hills Winery", "GuestService@sevenhillsWinery.com", "(509) 529-7198", "212 N 3rd Ave, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "27", "Elephant Seven", "cheryl@elephantsevenwine.com", NULL, "134 W Poplar St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "28", "Goose Ridge Winery", "info@gooseridge.com", "(509) 876-4046", "9 N 2nd Ave, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "29", "Forgeron Cellars", "tastingroom@forgeroncellars.com", "(509) 525-8799", "26 E Main Street, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "30", "Canoe Ridge Vineyard", "info@canoeridgevineyard.com", "(509) 525-1843", "45 E Main Street, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "31", "Bontzu Cellars", "sorin@bontzucellars.com", "(509) 876-4128", "127 E Main Street, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "32", "Plumb Cellars", "info@plumbcellars.com", "(509) 529-9463", "39 E Main Street, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "33", "Cayuse Vineyards", "info@cayusevineyards.com", "(509) 526-0686", "17 E Main Street, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "34", "Lawrelin Wine Cellars", "kendall@lawrelin.com", "(509) 572-8402", "14 N 2nd Avenue, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "35", "Corliss", "Corliss@Corlissestate.com", "(509) 426-4400", "511 N 2nd Avenue, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "36", "Spring Valley Vineyard", "info@springvalleyvineyard.com", "(509) 525-1506", "2 E Rose Street, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "37", "Otis Kenyon Wine", "muriel@otiskenyonwine.com", "(509) 525-3505", "23 E Main St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "38", "Dama Wines", "info@damawines.com", "509-525-2299", "123 E Main St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "39", "Bledsoe Family Winery", "info@bledsoefamilyWinery.com", "(509) 792-3510", "229 E Main St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "40", "Lagana Cellars", "jason@laganacellars.com", "(509) 876-0001", "16 N 2nd Ave, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "41", "Locati Cellars", "jason@locaticellars.com", "(509) 529-5871", "6 W Rose St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "42", "The Annex By Mark Ryan Winery", "info@markryanWinery.com", "509-593-5966", "60 N,. Colville St, Walla Walla, WA");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "43", "House of Smith", "hello@houseofsmith.com", "(509) 526-5230", "35 S Spokane St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "44", "Barons Winery", "info@baronsv.com", "(509) 525-9449", "11 N 2nd Ave, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "45", "El Corazon Winery", "elcorazonWinery@gmail.com", "(509) 520-4408", "37 S Palouse St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "46", "Vital Wines", "together@vitalWinery.com", "(509) 563-2191", "17 N 2nd Ave, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "47", "Gard Vintners Walla Walla Wine Tasting Room", "linda@gardvintners.com", "(509) 524-9099", "43 E Main St, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "48", "Heritage By L'Ecole Wine Bar", "info@lecole.com", "(509) 525-0940", "6 W Rose St #103, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("2", "49", "Maison Bleue Family Winery", "info@mbWinery.com", "(509) 525-9084", "20 N 2nd Ave, Walla Walla, WA 99362");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("3", "50", "Zerba Cellars", "info@zerbacellars.com", "(541) 938-9463", "85530 OR-11, Milton-Freewater, OR 97862");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("3", "51", "Mongata Winery", "info@mongata.flywheelsites.com", "(541) 861-9485", "81768 S Fork Walla Walla River Rd, Milton-Freewater, OR 97862");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("3", "52", "Watermill Winery", "shannon@watermillWinery.com", "(541) 938-5575", "235 E Broadway Ave, Milton-Freewater, OR 97862");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("3", "53", "Rotie Cellars", "info@rotiecellars.com", "(509) 301-9074", "84328 Trumbull Ln, Milton-Freewater, OR 97862");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("3", "54", "Ducleaux Cellars", "toby@ducleauxcellars.com", "(206) 419-1975", "54211 County 552 Rd, Milton-Freewater, OR 97862");
+INSERT INTO wwvwineries_schema.Winery (`Region_ID`, `Winery_ID`, `Name`, `Email`, `Phone_Number`, `Address`) VALUES ("3", "55", "Castillo De Feliciana Vineyard & Winery", "info@castillodefeliciana.com", "541-558-3656", "85728 Telephone Pole Rd, Milton-Freewater, OR 97862");
