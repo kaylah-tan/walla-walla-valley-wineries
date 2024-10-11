@@ -1,9 +1,3 @@
-A relational database containing information about wineries in the Walla Walla Valley in Walla Walla, Washington. 
-Overview: This database is designed to query various winery attributes, including wine types, availability, pricing, and regional classifications.
-  
-Assignment: Design a database of your choosing for a specific audience. 
-For: CS320ST: Databases; final project.
-  Potential users: tourists coming or leaving Walla Walla, Whitman College students/faculty/staff/parents, residents, etc.
-  Specific regions: Airport District, Downtown Walla Walla, Oregon Valley
-  
-Contributors: Kaylah Tan and Mateus Conaway 
+This repository involves the design of a relational database containing comprehensive information about wineries in the Walla Walla Valley, located in Walla Walla, Washington. The database is specifically crafted to query various attributes of wineries, including wine types, availability, pricing, regional classifications, operating hours, etc. The intended audience for this database includes tourists arriving or departing from Walla Walla, as well as Whitman College students, faculty, staff, and parents, along with local residents. The project focuses on key regions in Walla Walla valley such as the Airport District, Downtown Walla Walla, and the Oregon Valley. 
+
+This project's contributors are Kaylah Tan and Mateus Conaway.
