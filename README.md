@@ -1,5 +1,6 @@
 # Walla Walla Valley Wineries (WWV)
 Contributors: Kaylah Tan and Mateus Conaway
+
 CS302ST: Databases
 
 ## Overview
